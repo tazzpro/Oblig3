@@ -1,9 +1,12 @@
 body{
 	padding:0px;
 	margin:0px;
+	background: url(background1.png) no-repeat center center fixed;
+    background-color: black;
+    background-size: cover;
 }
 .header{
-	background-color:#1A3333;
+	background-color:transparent;
 	color:white;
 	text-align:center;
 	top:0px;
@@ -16,6 +19,16 @@ form{
 	border: 1px solid #cbcbcb;
 	margin: 5px auto;
 }
+h1 {
+color: white;
+font-family: italic;
+}
+
+h4 {
+	color: white;
+	font-size:30px;
+}
+
 .textInput{
 	margin-top: 2px;
 	height:28px;
@@ -36,4 +49,19 @@ form{
 }
 td{
 	text-align:right;
+}
+
+nav a, nav td {
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	border: ridge white;
+	background: transparent;
+	color: white;
+}
+
+nav, header {
+	display:block;
+	margin: auto;
+	text-align: center;
 }
