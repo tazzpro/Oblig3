@@ -32,7 +32,7 @@ if(isset($_POST['login_btn']))
 </head>
 <body>
 <div class="header">
-    <h1>Register, login and logout user php mysql</h1>
+<img src="Header.png">
 </div>
 <?php
     if(isset($_SESSION['message']))
@@ -58,6 +58,6 @@ if(isset($_POST['login_btn']))
  
 </table>
 </form>
-<a href="register.php" alt="click to register">Registration</a>
+<a href="register.php" alt="click to register"  id="register">Registration</a>
 </body>
 </html>

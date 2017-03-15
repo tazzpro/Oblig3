@@ -35,7 +35,7 @@ if(isset($_POST['register_btn']))
 </head>
 <body>
 <div class="header">
-    <h1>PlacementHeader, to be changed!</h1>
+   <img src="Header.png">
 </div>
 <?php 
 	if (isset($_SESSION['message']))

@@ -1,7 +1,3 @@
-<?php	session_start();
-$db=mysqli_connect("localhost","root","Asdasd123","authentication");
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,7 +22,7 @@ $db=mysqli_connect("localhost","root","Asdasd123","authentication");
 	</header>
 	<br>
 	<img src="start1.jpg" style="float: right; height: 15em; margin-right: 5%; margin-bottom: 0.5em;">
-	<h1>Home</h1>
+	<h1>Forum</h1>
 	<div><h4>Welcome <?php echo $_SESSION['username'];	?></h4></div>
 	
 	<a href="register.php" alt="click to register" id="register">Registration</a>

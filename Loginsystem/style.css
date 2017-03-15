@@ -6,12 +6,10 @@ body{
     background-size: cover;
 }
 .header{
-	background-color:transparent;
-	color:white;
-	text-align:center;
-	top:0px;
-	width:100%;
-	padding:5px;
+	max-width:100%;
+	text-align: center;
+	top: 0px;
+
 }
 form{
 	width:40%;
@@ -22,6 +20,8 @@ form{
 h1 {
 color: white;
 font-family: italic;
+text-align: center;
+margin: auto;
 }
 
 h4 {
@@ -64,4 +64,22 @@ nav, header {
 	display:block;
 	margin: auto;
 	text-align: center;
+}
+a:hover {
+	font-weight: bold;
+}
+
+#register {
+	font-size: 17px;
+	color: black;
+	border-left: 5px solid red;
+	margin-left: 25px;
+	background-color: darkcyan;
+}
+
+#logout  {
+	font-size: 17px;
+	color: black;
+	border-left: 5px solid red;
+	background-color: darkcyan;
 }
