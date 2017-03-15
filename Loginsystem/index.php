@@ -24,10 +24,6 @@
 		?>
 	</div>
 
-	 if($query->num_rows !==0):
-	while($row = $query->fetch()):
-	?>
-	
 	
 </body>
 
