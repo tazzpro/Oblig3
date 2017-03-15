@@ -9,7 +9,6 @@ $db=mysqli_connect("localhost","root","Asdasd123","authentication");
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<body class="background">
 	<div class="header">
 	<img src="Header.png">
 	</div>
@@ -23,7 +22,7 @@ $db=mysqli_connect("localhost","root","Asdasd123","authentication");
 				<td><a href="contact.php">Contact Us</a></td>
 				</tr>
 			</nav>
-	</header>
+	        </header>
 	<br>
 	<img src="start1.jpg" style="float: right; height: 15em; margin-right: 5%; margin-bottom: 0.5em;">
 	<h1>Home</h1>
