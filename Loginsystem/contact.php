@@ -21,9 +21,14 @@
             </nav>
         </header>
         <br>
-        <div class="">
+        <div class="contactinfo">
             <h1>We're never far away</h1> 
-            <h3><strong><span>Chat live with customer service</span></strong></h3>
+        <aside class="right">
+        <a href="register.php" alt="click to register" id="register">Registration</a>
+	<a href="logout.php" alt="click to sign out" id="logout">Logout</a>
+	<img src="start1.jpg" id ="rightpic">
+        </aside>
+            <h3><strong><span8>Chat live with customer service</span></strong></h3>
             <p>We're open from 08:00-20:00 monday-friday<br>saturday and sunday from 10:00-16:00</p>
 
             <h3><strong>Call us</strong></h3>
@@ -34,13 +39,6 @@
             <h3><strong>Send an e-mail</strong></h3>
             <p>Send an email to:<br><a href="mailto:customerservice@megaforum.com">customerservice@megaforum.com</a></p>
         </div>
-        <aside class="right">
-        <a href="register.php" alt="click to register" id="register">Registration</a>
-	<a href="logout.php" alt="click to sign out" id="logout">Logout</a>
-	<img src="start1.jpg" id ="rightpic">
-        </aside>
-        <h1>Contact us</h1>
-        <div><h4>Welcome <?php echo $_SESSION['username']; ?></h4></div>
-
+        <footer><p>Created by MegaForum © Copyright! All rights reserved ® 13.03.2017 </p></footer>
     </body>
 </html>
