@@ -213,3 +213,8 @@ nav, header {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
     background-color:#bab1ba;
 }
+
+.contactinfo {
+    text-align: center;
+    color: white;
+}
