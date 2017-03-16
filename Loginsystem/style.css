@@ -17,11 +17,9 @@ body{
     max-width: 100%;
     height: auto;
 }
+
 footer{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  margin-top: 10px;
   padding: 10px;
   text-align: center;
   color: white;
