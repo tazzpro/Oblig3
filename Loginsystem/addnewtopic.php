@@ -8,14 +8,16 @@
 	$cid = $_GET['cid'];
 	$scid = $_GET['scid'];
 	
-	//echo "topic:".$topic."<br>content:".$content."<br>cid:".$cid."<br>scid:".$scid"";
+	echo "Topic:";
+	echo $content;
+	echo $scid;
 	
-	$insert = mysqli_query($con, "INSERT INTO topics (category_id, subcat_id, author, title, content, date_posted)
+	/*$insert = mysqli_query($con, "INSERT INTO topics (category_id, subcat_id, author, title, content, date_posted)
 								VALUES ('$cid', '$scid', '$_SESSION['username']', '$topic', '$content', 2017-03-15);");
 								
-	*/if ($insert) {
+	if ($insert) {
 		header("Location: topics.php?cid=".$cid."&scid=".$scid."");
 	}else{
 		header("Location: index.php");
-	}
+	}*/
 ?>
