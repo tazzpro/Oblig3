@@ -24,6 +24,7 @@ footer{
   left: 0;
   padding: 10px;
   text-align: center;
+  color: white;
 }
 
 .right{
@@ -43,6 +44,8 @@ footer{
     margin: 0 auto 0 auto;
     padding: 20px 24px 20px 37px;
     color: white;
+	background: rgba(0, 0, 0, 0.3);
+	letter-spacing: 0.1px;
 }
 
 #rightpic{

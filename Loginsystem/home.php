@@ -34,7 +34,7 @@ $db = mysqli_connect("localhost", "root", "Asdasd123", "authentication");
             <br>2nd most recent post edited
             <br>3rd etc..
         </aside>
-        <h1>Home</h1>
+        <br>
         <div class="content">
             <div><h4>Welcome <?php echo $_SESSION['username']; ?></h4></div>
             <h3>    This is a forum where you can discuss just about anything.
@@ -43,7 +43,7 @@ $db = mysqli_connect("localhost", "root", "Asdasd123", "authentication");
                 <br>GL HF.
             </h3>
         </div>
-        <footer><p>Created by MegaForum © Copyright! All rights reserved ® 13.03.2017 </p></footer>
+        <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 16.03.2017 </p></footer>
     </main>
 </body>
 </html>

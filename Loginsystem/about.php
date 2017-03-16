@@ -36,16 +36,15 @@
             <h1>About us</h1> 
        
             <h3><strong><span8>The developers...</span></h3>
-            <p>We're a group of 6 students
-			<br>that chosen this as a group project.
-			<br>The developers behind this forum are:
-			<br>Rasmus D, Espen V, Eivind M,
-			<br>Bjørn-Magnus S, Knut Johan S and Even M
+            <p>We're a group of 6 students</p>
+			<p>that chosen this as a group project.</p>
+			
+			<br><p>The developers behind this forum are:</p>
+			<p>Rasmus D, Espen V, Eivind M,</p>
+			<p>Bjørn-Magnus S, Knut Johan S and Even M
 			</p></strong>
 
-
+		<footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 16.03.2017 </p></footer>
 		</div>
-	
-
 </body>
 </html>
