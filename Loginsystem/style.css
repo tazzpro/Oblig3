@@ -21,6 +21,8 @@ footer{
     margin: auto;
     width: 50%;
     text-align: center;
+    color: white;
+    font-size: 20px;
 }
 
 .right{
@@ -34,11 +36,12 @@ footer{
     padding: 0 15px 20px 15px;
 }
 .content{
-    text-align: left;
+    text-align: center;
     width: 50%;
     overflow: hidden;
     margin: 0 auto 0 auto;
     padding: 20px 24px 20px 37px;
+    color: white;
 }
 
 #rightpic{
