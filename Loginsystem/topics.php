@@ -34,7 +34,7 @@
 	<div class="content">
 		<?php 
 			
-			dispcategories();
+			disptopics($_GET['cid'],$_GET['scid']);
 		?>
 	</div>
 
