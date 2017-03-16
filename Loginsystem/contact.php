@@ -45,8 +45,9 @@
 
             <h3><strong>Send an e-mail to MegaForum</strong></h3>
             <p>Send an email to:<br><a href="mailto:customerservice@megaforum.com">customerservice@megaforum.com</a></p>
-        </div>
-        <br>
-        <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 16.03.2017 </p></footer>
-    </body>
+        
+		<br>
+       	   <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 16.03.2017 </p></footer>
+		</div>   
+   </body>
 </html>
