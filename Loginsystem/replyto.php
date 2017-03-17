@@ -53,13 +53,14 @@ addview($_GET['cid'], $_GET['scid'], $_GET['tid']);
             ?>
         </div>
 
+        <div class="content">
         <?php
         if (isset($_SESSION['username'])) {
             replytopost($_GET['cid'], $_GET['scid'], $_GET['tid']);
         }
         ?>
 
-        <div class="content">
+       
             <?php
             disptopic($_GET['cid'], $_GET['scid'], $_GET['tid']);
             ?>
