@@ -51,7 +51,7 @@ include ('content_function.php');
                 echo "<form action='addnewtopic.php?cid=" . $_GET['cid'] . "&scid=" . $_GET['scid'] . "'
 				method='POST'>
 				<p>Title</p>
-				<input type='text' id='topic' name='topic' size='100'/>
+				<input type='text' id='topic' name='topic' size='50'/>
 				<p>Content:</p>
 				<textarea id='content' name='content'></textarea><br />
 				<input type='submit' value='add new post' /></form>";
