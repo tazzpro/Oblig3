@@ -6,10 +6,10 @@ include ('content_function.php');
 <html>
 
 
-<head>
-<title> Hello </title>
-</head>
-<body>
+    <head>
+        <title> Hello </title>
+    </head>
+    <body>
 
 
     <head>
@@ -20,7 +20,19 @@ include ('content_function.php');
         <div class="header">
             <img src="Header.png">
         </div>
-        <div>
+        <br>
+        <header>
+            <nav>
+                <tr>
+                    <td><a href="home.php">Home</a></td>
+                    <td><a href="forum.php">Forum</a></td>
+                    <td><a href="about.php">About Us</a></td>
+                    <td><a href="contact.php">Contact Us</a></td>
+                </tr>
+            </nav>
+        </header>
+        <br>
+        <div class="right">
             <?php
             session_start();
             if (isset($_SESSION['username'])) {
@@ -37,14 +49,8 @@ include ('content_function.php');
             }
             ?>
 
-
-        </div>
-        <br>
-        <aside class="right">
-            <a href="register.php" alt="click to register" id="register">Registration</a>
-            <a href="logout.php" alt="click to sign out" id="logout">Logout</a>
             <img src="start1.jpg" id ="rightpic">
-        </aside>
+        </div>
         <aside class="left">Recent activity:
             <br>Most recent post edited
             <br>2nd most recent post edited
