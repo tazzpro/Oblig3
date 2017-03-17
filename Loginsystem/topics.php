@@ -57,7 +57,7 @@ include ('content_function.php');
             disptopics($_GET['cid'], $_GET['scid']);
             ?>
         </div>
-
+        <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 16.03.2017 </p></footer>
 
     </body>
 
