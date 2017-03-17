@@ -18,7 +18,7 @@ include ('content_function.php');
             <nav>
                 <tr>
                     <td><a href="home.php">Home</a></td>
-                    <td><a href="forum.php">Forum</a></td>
+                    <td><a href="index.php">Forum</a></td>
                     <td><a href="about.php">About Us</a></td>
                     <td><a href="contact.php">Contact Us</a></td>
                 </tr>
@@ -33,7 +33,7 @@ include ('content_function.php');
             } else {
                 if (isset($_GET['status'])) {
                     if ($_GET['status'] == 'reg_success') {
-                        echo "<h1 style='color:green;'> new user registered successfully!</h1>";
+                        echo "<h1 style='color:black;'> new user registered successfully!</h1>";
                     } else if ($_GET['status'] == 'login_fail') {
                         echo "<h1 style='color: red;'>Invalid username and/or password!</h1>";
                     }
