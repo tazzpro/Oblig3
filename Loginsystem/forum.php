@@ -20,11 +20,25 @@
             </nav>
         </header>
         <br>
-        <aside class="right">
-            <a href="register.php" alt="click to register" id="register">Registration</a>
-            <a href="logout.php" alt="click to sign out" id="logout">Logout</a>
+        <div class="right">
+            <?php
+            session_start();
+            if (isset($_SESSION['username'])) {
+                logout();
+            } else {
+                if (isset($_GET['status'])) {
+                    if ($_GET['status'] == 'reg_success') {
+                        echo "<h1 style='color:green;'> new user registered successfully!</h1>";
+                    } else if ($_GET['status'] == 'login_fail') {
+                        echo "<h1 style='color: red;'>Invalid username and/or password!</h1>";
+                    }
+                }
+                loginform();
+            }
+            ?>
+
             <img src="start1.jpg" id ="rightpic">
-        </aside>
+        </div>
         <h1>Forum</h1>
         <div><h4>Welcome <?php echo $_SESSION['username']; ?></h4></div>
 
