@@ -20,8 +20,14 @@
 		
 		
 		if ($insert) {
-		header("Location: readtopic.php?cid=".$cid."&scid=".$scid."&tid".$tid."");
+		replyplus($cid, $scid, $tid);
+		header("Location: readtopic.php?cid=".$cid."&scid=".$scid."&tid=".$tid."");
 		}if(!$insert) {
 			echo"Feilen".mysqli_error($con);
 		}
+		function replyplus($cid, $scid, $tid) {
+		include ('dbconn.php');
+		$update = mysqli_query($con, "UPDATE topics SET replies = replies +1 WHERE category_id = ".$cid." AND
+									subcat_id = ".$scid." AND topic_id = ".$tid."");
+	}
 ?>

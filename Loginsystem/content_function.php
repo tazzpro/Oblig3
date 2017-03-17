@@ -44,7 +44,7 @@
 			echo "<tr><th>Title</th><th>Posted by</th><th>Date Posted</th><th>Views</th><th>Replies</th></tr>";
 			while($row = mysqli_fetch_assoc($select)) {
 				echo "<tr><td><a href='readtopic.php?cid=".$cid."&scid=".$scid."&tid=".$row['topic_id']."'>
-					".$row['title']."</a></td><td>".$row['date_posted']."</td><td>".$row['views']."</td>
+					".$row['title']."</a></td><td>".$row['author']."</td><td>".$row['date_posted']."</td><td>".$row['views']."</td>
 					<td>".$row['replies']."</td></tr>";
 			}
 			echo "</table>";
@@ -67,8 +67,10 @@
 	function addview($cid, $scid, $tid) {
 		include ('dbconn.php');
 		$update = mysqli_query($con, "UPDATE topics SET views = views + 1 WHERE category_id = ".$cid." AND
-		subcat_id = ".$scid." AND topic_id = ".$tid."");
+									subcat_id = ".$scid." AND topic_id = ".$tid."");
 	}
+	
+	
 	
 	function replylink($cid, $scid, $tid) {
 	
