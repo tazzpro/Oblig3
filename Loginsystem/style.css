@@ -29,6 +29,10 @@ body{
 
 }
 
+a {
+    color: black;
+}
+
 table, table tbody, table tr, table td {
     width: 100%;
     text-align: left;
