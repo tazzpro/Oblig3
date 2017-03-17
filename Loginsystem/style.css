@@ -22,14 +22,7 @@ body{
     text-align: left;
     color: black;
     background-color: white;
-
-}
-
-/*post author */
-.post-author {
-    text-align: left;
-    color: black;
-    background-color: white;
+    min-height: 150px;
 
 }
 
