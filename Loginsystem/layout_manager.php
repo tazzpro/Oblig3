@@ -6,9 +6,9 @@
 			<p>Password:</p>
 			<input type='password' id='passwordinput' name='passwordinput' />
 			
-			<input type='submit' value='Login'/>
+			<input type='submit' value='Login' id='loginbutton'/>
 			
-			<button type='button' onclick='location.href=\"register.html\";'>Register</button>
+			<button type='button' id='registerbutton' onclick='location.href=\"register.html\";'>Register</button>
 			</form>";
 	}
 	
