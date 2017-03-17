@@ -20,7 +20,9 @@
 			echo "<tr><td class='category_title'><a href='topics.php?cid=".$row['cat_id']."&scid=".$row['subcat_id']."'>
 				".$row['subcat_title']."<br />";
 		echo $row['subcat_desc']."</a></td>";
-		echo "<td class='num-topics'>".getnumtopics($parent_id, $row['subcat_id'])."</td></tr>";
+		echo "<td class='num-topics'>";
+		getnumtopics($parent_id, $row['subcat_id']);
+		echo "</td></tr>";
 		}
 	}
 	
