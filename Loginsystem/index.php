@@ -5,13 +5,13 @@ include ('content_function.php');
 
 <html>
 
-<!-- <<<<<<< HEAD -->
+
 <head>
 <title> Hello </title>
 </head>
 <body>
 
-<!-- ======= -->
+
     <head>
         <title> Hello </title>
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -36,7 +36,7 @@ include ('content_function.php');
                 loginform();
             }
             ?>
->>>>>>> origin/master
+
 
         </div>
         <br>
