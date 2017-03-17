@@ -62,7 +62,8 @@ include ('content_function.php');
                         <p>Bjørn-Magnus S, Knut Johan S and Even M
                         </p></strong>
 
-                <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 16.03.2017 </p></footer>
         </div>
+        <hr>
+        <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 17.03.2017 </p></footer>
     </body>
 </html>

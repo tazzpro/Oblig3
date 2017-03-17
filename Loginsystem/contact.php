@@ -65,7 +65,9 @@ include ('content_function.php');
             <p>Send an email to:<br><a href="mailto:customerservice@megaforum.com">customerservice@megaforum.com</a></p>
 
             <br>
-            <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 16.03.2017 </p></footer>
+
         </div>   
+        <hr>
+        <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 17.03.2017 </p></footer>
     </body>
 </html>
