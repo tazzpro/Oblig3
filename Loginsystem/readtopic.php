@@ -62,7 +62,7 @@ addview($_GET['cid'], $_GET['scid'], $_GET['tid']);
             ?>
         </div>
 
-        <hr>
+        
         <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 17.03.2017 </p></footer>
 
     </body>
