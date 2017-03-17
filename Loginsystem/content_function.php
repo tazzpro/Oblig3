@@ -15,7 +15,7 @@
 		include ('dbconn.php');
 		$select = mysqli_query($con, 	"SELECT cat_id, subcat_id, subcat_title, subcat_desc FROM categories, subcategory
 										WHERE ($parent_id = categories.cat_id) AND ($parent_id = subcategory.parent_id)");
-		echo "<tr><td width='90%'>Categories</td></td width='10%'>Topics</td></tr>";
+		//echo "<tr><td width='90%'>Categories</td></td width='10%'>Topics</td></tr>";
 		while ($row = mysqli_fetch_assoc($select)) {
 			echo "<tr><td class='category_title'><a href='topics.php?cid=".$row['cat_id']."&scid=".$row['subcat_id']."'>
 				".$row['subcat_title']."<br />";
