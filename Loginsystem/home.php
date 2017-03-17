@@ -24,6 +24,7 @@ $db = mysqli_connect("localhost", "root", "Asdasd123", "authentication");
                 </tr>
             </nav>
         </header>
+        <br>
         <aside class="right">
             <a href="register.php" alt="click to register" id="register">Registration</a>
             <a href="logout.php" alt="click to sign out" id="logout">Logout</a>
