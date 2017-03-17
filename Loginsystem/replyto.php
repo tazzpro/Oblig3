@@ -8,6 +8,7 @@
 
 <head>
 <title> Hello </title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <a href="login.php" alt="Click to log in!">Login</a><br>
