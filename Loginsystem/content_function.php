@@ -21,7 +21,7 @@
 				".$row['subcat_title']."<br />";
 		echo $row['subcat_desc']."</a></td>";
 		echo "<td class='num-topics'>";
-		getnumtopics($parent_id, $row['subcat_id']);
+		//getnumtopics($parent_id, $row['subcat_id']); TODO: fikse så den displayer nummer
 		echo "</td></tr>";
 		}
 	}
