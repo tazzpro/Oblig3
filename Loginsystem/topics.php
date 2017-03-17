@@ -46,8 +46,10 @@ include ('content_function.php');
         </div>
         <?php
         if (isset($_SESSION['username'])) {
-            echo"<div class='content'><p><a href='newtopic.php?cid=" . $_GET['cid'] . "&scid=" . $_GET['scid'] . "'>
-				Add new topic</a></p></div>";
+            echo"<div class='content'>
+				<form action='newtopic.php?cid=" . $_GET['cid'] . "&scid=" . $_GET['scid'] . "'
+				method='POST'>
+				<input type='submit' id='newTopic' value='Add new topic' /></form></div>";
         }
         ?>
         <div class="content">
