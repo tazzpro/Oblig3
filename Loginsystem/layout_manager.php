@@ -13,7 +13,7 @@
 	}
 	
 	function logout() {
-		echo ("<p>Welcome ".$_SESSION['username']."!\nLooking good today!</p>
+		echo ("<p><b>Welcome ".$_SESSION['username']."!\nLooking good today!</b></p>
 			<form action='logout.php' method='GET'>
 			<input type='submit' value='Logout' /> </form>");
 	}
