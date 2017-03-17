@@ -53,7 +53,7 @@ include ('content_function.php');
 				<p>Title</p>
 				<input type='text' id='topic' name='topic' size='50'/>
 				<p>Content:</p>
-				<textarea rows='5' cols='80' id='content' name='content'></textarea><br />
+				<textarea rows='10' cols='80' id='content' name='content'></textarea><br />
 				<input type='submit' value='add new post' /></form>";
             } else {
                 echo"<p> Please login first or <a href='register.html'>click here</a> to register.</p>";
