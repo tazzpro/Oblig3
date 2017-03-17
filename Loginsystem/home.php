@@ -1,7 +1,8 @@
 <?php
-session_start();
-$db = mysqli_connect("localhost", "root", "Asdasd123", "authentication");
+include ('layout_manager.php');
+include ('content_function.php');
 ?>
+
 
 <!DOCTYPE html>
 <html>
