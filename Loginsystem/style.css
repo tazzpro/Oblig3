@@ -20,13 +20,26 @@ body{
 }
 /* post content */
 .post-content{
-    text-align: right;
+    text-align: left;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	background-color: rgba(0, 0, 0, 0.3);
+	
 }
 
 /*post author */
-.author {
-    text-align: left;	
+.post-author {
+    text-align: left;
+	color: black;
 
+}
+
+/*Alle kommentara*/
+.replies {
+	color: red;
+	font-style: italic;
+	text-align: right;
 }
 
 a {
