@@ -36,16 +36,16 @@
 	<div class="forumdesc">
 		<?php
 		
-			replylink($_GET['cid'], $_GET['scid'], $_GET['tid']); //crasher her!!!!
-			echo"yolo";
+			replylink($_GET['cid'], $_GET['scid'], $_GET['tid']);
+			
 		?>
 	</div>
 	
 	<?php
 		disptopic($_GET['cid'], $_GET['scid'], $_GET['tid']);
-		echo "<div class='content'><p>All Replies()";/*this will display the number of replies*/
-		echo "</p></div>";
-		// This will display replies
+		echo "<div class='content'><p>All Replies(".countReplies($_GET['cid'], $_GET['scid'], $_GET['tid']).")
+			</p></div>";
+		dispreplies($_GET['cid'], $_GET['scid'], $_GET['tid']);
 	?>
 
 	

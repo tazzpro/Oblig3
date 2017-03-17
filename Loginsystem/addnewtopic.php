@@ -13,7 +13,6 @@
 	$insert = mysqli_query($con, "INSERT INTO topics (category_id, subcat_id, author, title, content, date_posted)
 								VALUES ('$cid', '$scid', '$username', '$topic', '$content', '$now')");
 								
-	echo "Failed to do it";
 	if ($insert) {
 		header("Location: topics.php?cid=".$cid."&scid=".$scid."");
 	}else{
