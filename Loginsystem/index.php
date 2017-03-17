@@ -53,6 +53,8 @@ include ('content_function.php');
             dispcategories();
             ?>
         </div>
+        
+        <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 16.03.2017 </p></footer>
 
 
     </body>
