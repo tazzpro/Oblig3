@@ -26,6 +26,7 @@ addview($_GET['cid'], $_GET['scid'], $_GET['tid']);
             </nav>
         </header>
         <br>
+
         <div class="right">
 
             <?php
