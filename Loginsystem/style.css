@@ -12,34 +12,30 @@ body{
 
 /* post title */
 .title {
-    color: red;
-	font-style: italic;
-	background-color: rgba(0, 0, 0, 0.1);
-	font-size: 30px;
-	
+    text-align: center;
+    color: white;
+    background-color: black;
+
 }
 /* post content */
 .post-content{
     text-align: left;
-	font-weight: bold;
-	color: white;
-	font-size: 22px;
-	background-color: rgba(0, 0, 0, 0.3);
-	
+    color: black;
+    background-color: white;
+
 }
 
 /*post author */
 .post-author {
     text-align: left;
-	color: black;
+    color: black;
+    background-color: white;
 
 }
 
 /*Alle kommentara*/
 .replies {
-	color: red;
-	font-style: italic;
-	text-align: right;
+    text-align: left;
 }
 
 a {
