@@ -61,7 +61,7 @@
 		
 		$row = mysqli_fetch_assoc($select);
 		echo nl2br ("<div class='content'><h2 class='title'>".$row['title']."</h2><p>".$row['author']."\n".$row['date_posted']."</p></div>");
-		echo "<div class='content'><p>".$row['content']."</p></div>";
+		echo "<div class='content'><p class = 'post-content'>".$row['content']."</p></div>";
 	}
 	
 	function addview($cid, $scid, $tid) {

@@ -9,6 +9,15 @@ body{
     background-color: black;
     background-size: cover;
 }
+/* post title */
+.title {
+    
+}
+/* post content */
+.post-content{
+    
+}
+
 
 table, table tbody, table tr, table td {
     width: 100%;
