@@ -20,7 +20,7 @@
 		
 		
 		if ($insert) {
-		header("Location: readtopic.php?cid=".$cid."&scid=".$scid."&tid".$tid."");
+		header("Location: readtopic/".$cid."/".$scid."/".$tid."");
 		}if(!$insert) {
 			echo"Feilen".mysqli_error($con);
 		}

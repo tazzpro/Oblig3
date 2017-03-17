@@ -17,7 +17,7 @@
 										WHERE ($parent_id = categories.cat_id) AND ($parent_id = subcategory.parent_id)");
 		echo "<tr><td width='90%'>Categories</td></td width='10%'>Topics</td></tr>";
 		while ($row = mysqli_fetch_assoc($select)) {
-			echo "<tr><td class='category_title'><a href='topics.php?cid=".$row['cat_id']."&scid=".$row['subcat_id']."'>
+			echo "<tr><td class='category_title'><a href='topics/".$row['cat_id']."/".$row['subcat_id']."'>
 				".$row['subcat_title']."<br />";
 		echo $row['subcat_desc']."</a></td>";
 		echo "<td class='num-topics'>";
@@ -43,13 +43,13 @@
 			echo "<table class='topic-table'>";
 			echo "<tr><th>Title</th><th>Posted by</th><th>Date Posted</th><th>Views</th><th>Replies</th></tr>";
 			while($row = mysqli_fetch_assoc($select)) {
-				echo "<tr><td><a href='readtopic.php?cid=".$cid."&scid=".$scid."&tid=".$row['topic_id']."'>
+				echo "<tr><td><a href='readtopic/".$cid."/".$scid."/".$row['topic_id']."'>
 					".$row['title']."</a></td><td>".$row['date_posted']."</td><td>".$row['views']."</td>
 					<td>".$row['replies']."</td></tr>";
 			}
 			echo "</table>";
 		}else {
-			echo "<p> this category has no topics as of yet! <a href='newtopic.php?cid=".$cid."&scid=".$scid."'> Click to add new topic!</a></p>";
+			echo "<p> this category has no topics as of yet! <a href='newtopic/".$cid."/".$scid."'> Click to add new topic!</a></p>";
 		}
 	}
 	
@@ -72,11 +72,11 @@
 	
 	function replylink($cid, $scid, $tid) {
 	
-		echo"<p><a href='replyto.php?cid=".$cid."&scid=".$scid."&tid=".$tid."'>Reply to this post</a></p>";
+		echo"<p><a href='replyto/".$cid."/".$scid."/".$tid."'>Reply to this post</a></p>";
 	}
 	
 	function replytopost($cid, $scid, $tid) {
-		echo "<div class='content'><form action='addreply.php?cid=".$cid."&scid=".$scid."&tid=".$tid."' method='POST'>
+		echo "<div class='content'><form action='addreply/".$cid."/".$scid."/".$tid."' method='POST'>
 		<p>Comment: </p>
 		<textarea cols='80' rows='5' id='comment' name='comment'></textarea><br />
 		<input type='submit' value='add comment' />

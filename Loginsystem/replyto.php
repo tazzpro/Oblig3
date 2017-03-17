@@ -21,9 +21,9 @@
 			}else {
 				if (isset($_GET['status']))
 				{
-					if($_GET['status'] == 'reg_success') {
+					if($_GET['status'] == 'reg-success') {
 						echo "<h1 style='color:green;'> new user registered successfully!</h1>";
-					}else if($_GET['status'] == 'login_fail') {
+					}else if($_GET['status'] == 'login-fail') {
 						echo "<h1 style='color: red;'>Invalid username and/or password!</h1>";
 					}				
 				}
@@ -35,7 +35,7 @@
 	<div class="forumdesc">
 		<?php
 			if(!isset($_SESSION['username'])) {
-				echo "<p> Please login first or <a href='register.html'>click here </a> to register.</p>";
+				echo "<p> Please login first or <a href='register'>click here </a> to register.</p>";
 			}
 		?>
 	</div>

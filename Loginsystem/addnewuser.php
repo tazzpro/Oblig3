@@ -10,6 +10,6 @@
 	
 	
 	if ($insert) {
-		header("Location:index.php?status=reg_success");
+		header("Location:index/reg-success");
 	}
 ?>

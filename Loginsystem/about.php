@@ -1,3 +1,8 @@
+<?php
+include ('layout_manager.php');
+include ('content_function.php');
+?>
+
 <!DOCTYPE html>
 <html>
     <head>

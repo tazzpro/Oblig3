@@ -1,3 +1,8 @@
+<?php
+include ('layout_manager.php');
+include ('content_function.php');
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,7 +18,7 @@
             <nav>
                 <tr>
                     <td><a href="home.php">Home</a></td>
-                    <td><a href="forum.php">Forum</a></td>
+                    <td><a href="index.php">Forum</a></td>
                     <td><a href="about.php">About Us</a></td>
                     <td><a href="contact.php">Contact Us</a></td>
                 </tr>

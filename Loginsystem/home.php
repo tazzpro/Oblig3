@@ -1,6 +1,6 @@
 <?php
-session_start();
-$db = mysqli_connect("localhost", "root", "Asdasd123", "authentication");
+include ('layout_manager.php');
+include ('content_function.php');
 ?>
 
 <!DOCTYPE html>
@@ -26,8 +26,9 @@ $db = mysqli_connect("localhost", "root", "Asdasd123", "authentication");
         </header>
         <br>
         <div class="right">
-            <?php
+            <?php 
             session_start();
+			
             if (isset($_SESSION['username'])) {
                 logout();
             } else {

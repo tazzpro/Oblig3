@@ -14,8 +14,6 @@
 								VALUES ('$cid', '$scid', '$username', '$topic', '$content', '$now')");
 								
 	if ($insert) {
-		header("Location: topics.php?cid=".$cid."&scid=".$scid."");
-	}else{
-		header("Location: index.php");
+		header("Location: topics/".$cid."/".$scid."");
 	}
 	?>
