@@ -17,16 +17,21 @@ body{
     max-width: 100%;
     height: auto;
 }
+
 footer{
-    margin: auto;
-    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
     text-align: center;
+    color: white;
+    font-size: 20px;
+    display: block;
+    clear: both;
 }
 
 .right{
     float: right; 
     width: 20%;
-    padding: 0 15px 20px 15px;
+    padding: 0 10px 20px 15px;
 }
 .left{
     float: left;  
@@ -34,17 +39,20 @@ footer{
     padding: 0 15px 20px 15px;
 }
 .content{
-    text-align: left;
+    text-align: center;
     width: 50%;
     overflow: hidden;
     margin: 0 auto 0 auto;
     padding: 20px 24px 20px 37px;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.1px;
 }
 
 #rightpic{
     float: right; 
     height: 15em; 
-    margin-right: 5%; 
+    margin-right: 1em; 
     margin-bottom: 0.5em;
     margin-top: 2em;
 }
