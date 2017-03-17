@@ -4,14 +4,6 @@ include ('content_function.php');
 ?>
 
 <html>
-
-
-    <head>
-        <title> Hello </title>
-    </head>
-    <body>
-
-
     <head>
         <title> Hello </title>
         <link rel="stylesheet" type="text/css" href="style.css">
