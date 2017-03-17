@@ -18,6 +18,10 @@ table, table tbody, table tr, table td {
     background-color: #000000;
     color: white;
 }
+tbody:not(.main-category){
+    background-color: white;
+    color: #000000;
+}
 
 .header{
     top: 0px;
