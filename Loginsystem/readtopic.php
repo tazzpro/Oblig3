@@ -53,15 +53,17 @@ addview($_GET['cid'], $_GET['scid'], $_GET['tid']);
             ?>
         </div>
         <div class="content">
-        <?php
-        disptopic($_GET['cid'], $_GET['scid'], $_GET['tid']);
-        echo "<div class='replies'><p>All Replies(";
-        countReplies($_GET['cid'], $_GET['scid'], $_GET['tid']);
-        echo ")	</p></div>";
-        dispreplies($_GET['cid'], $_GET['scid'], $_GET['tid']);
-        ?>
+            <?php
+            disptopic($_GET['cid'], $_GET['scid'], $_GET['tid']);
+            echo "<div class='replies'><p>All Replies(";
+            countReplies($_GET['cid'], $_GET['scid'], $_GET['tid']);
+            echo ")	</p></div>";
+            dispreplies($_GET['cid'], $_GET['scid'], $_GET['tid']);
+            ?>
         </div>
 
+        <hr>
+        <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 17.03.2017 </p></footer>
 
     </body>
 

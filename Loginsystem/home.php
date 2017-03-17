@@ -59,7 +59,8 @@ include ('content_function.php');
                 <br>GL HF.
             </h3>
         </div>
-        <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 16.03.2017 </p></footer>
+        <hr>
+        <footer><p>Created by MegaForum &copy; Copyright! All rights reserved &reg; 17.03.2017 </p></footer>
     </main>
 </body>
 </html>
