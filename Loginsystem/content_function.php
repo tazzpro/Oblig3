@@ -100,8 +100,8 @@
 	
 	function countReplies($cid, $scid, $tid) {
 		include ('dbconn.php');
-		$select = mysqli_query($con, "SELECT category_id, subcat_id, topic_id FROM replies WHERE ($cid = category_id) AND ($scid = subcat_id) AND ($tid = topics_id)");
-		return mysqli_num_rows($select);
+		$select = mysqli_query($con, "SELECT category_id, subcat_id, topic_id FROM replies WHERE ($cid = category_id) AND ($scid = subcat_id) AND ($tid = topic_id)");
+		echo mysqli_num_rows($select);
 	}
 	
 	?>
