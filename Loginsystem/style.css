@@ -9,18 +9,24 @@ body{
     background-color: black;
     background-size: cover;
 }
+
 /* post title */
 .title {
-    
+    color: red;
+	font-style: italic;
+	background-color: rgba(0, 0, 0, 0.1);
+	font-size: 30px;
+	
 }
 /* post content */
 .post-content{
-    
+    text-align: right;
 }
 
 /*post author */
 .author {
-    
+    text-align: left;	
+
 }
 
 table, table tbody, table tr, table td {
