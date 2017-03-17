@@ -9,8 +9,7 @@
 <title> Hello </title>
 </head>
 <body>
-<a href="login.php" alt="Click to log in!">Login</a><br>
-<a href="register.php" alt="Click to log in!">or Register</a>
+
 
 	<div>
 		<?php
