@@ -9,6 +9,16 @@ body{
     background-color: black;
     background-size: cover;
 }
+
+table {
+    width: 100%;
+    text-align: left;
+}
+.main-category {
+    background-color: #000000;
+    color: white;
+}
+
 .header{
     top: 0px;
     text-align:center; 
