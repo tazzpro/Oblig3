@@ -13,11 +13,6 @@
 		$_SESSION['username'] = $username;
 		header("Location: ".$_SERVER['HTTP_REFERER']);
 	} else {
-		if (substr($_SERVER['HTTP_REFERER'], -1) == '/') {
-			header("Location: ".$_SERVER['HTTP_REFERER']."login-fail");
-		}else {
-			header("Location: ".$_SERVER['HTTP_REFERER']."/login_fail");
-		}
-		
+		header("Location: ".$_SERVER['HTTP_REFERER']."?status=login_fail");
 	}
 ?>
