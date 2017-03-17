@@ -60,8 +60,8 @@
 									topics WHERE($cid = category_id) AND ($scid = subcat_id) AND ($tid = topic_id)");
 		
 		$row = mysqli_fetch_assoc($select);
-		echo nl2br ("<div class='content'><h2 class='title'>".$row['title']."</h2><p>".$row['author']."\n".$row['date_posted']."</p></div>");
-		echo "<div class='content'><p class = 'post-content'>".$row['content']."</p></div>";
+		echo nl2br ("<div class='content'><h2 class='title'>".$row['title']."</h2><p class ='post-author'>".$row['author']."\n".$row['date_posted']."</p></div>");
+		echo "<div class='content'><p class ='post-content'>".$row['content']."</p></div>";
 	}
 	
 	function addview($cid, $scid, $tid) {
