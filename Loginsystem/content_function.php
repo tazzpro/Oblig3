@@ -74,7 +74,9 @@
 	
 	function replylink($cid, $scid, $tid) {
 	
-		echo"<p><a href='replyto.php?cid=".$cid."&scid=".$scid."&tid=".$tid."'>Reply to this post</a></p>";
+		echo"<form action='replyto.php?cid=".$cid."&scid=".$scid."&tid=".$tid."'
+		method='POST'>
+		<input type='submit' value='Reply to this post' /></form>";
 	}
 	
 	function replytopost($cid, $scid, $tid) {
