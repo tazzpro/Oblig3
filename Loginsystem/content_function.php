@@ -60,7 +60,7 @@
 									topics WHERE($cid = category_id) AND ($scid = subcat_id) AND ($tid = topic_id)");
 		
 		$row = mysqli_fetch_assoc($select);
-		echo nl2br ("<div><h2 class='title'>".$row['title']."</h2><p class ='post-content'>".$row['author']."\n".$row['date_posted']."</p></div>");
+		echo nl2br ("<div class ='title-author'><h2 class='title'>".$row['title']."</h2><p class ='post-author'>".$row['author']."\n".$row['date_posted']."</p></div>");
 		echo "<div><p class ='post-content'>".$row['content']."</p></div>";
 	}
 	
