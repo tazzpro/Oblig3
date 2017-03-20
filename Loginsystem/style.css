@@ -69,6 +69,7 @@ footer{
     padding: 10px;
     text-align: center;
     color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 20px;
     display: block;
     clear: both;
@@ -81,6 +82,7 @@ footer{
 }
 .left{
     float: left;  
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     width: 20%;
     padding: 0 15px 20px 15px;
 }
@@ -91,6 +93,7 @@ footer{
     margin: 0 auto 0 auto;
     padding: 20px 24px 20px 37px;
     color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     background: rgba(0, 0, 0, 0.3);
     letter-spacing: 0.1px;
 }
