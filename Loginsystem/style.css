@@ -278,3 +278,7 @@ nav, header {
     text-align: center;
     color: white;
 }
+
+.forumdesc {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
