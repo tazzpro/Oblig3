@@ -52,7 +52,7 @@ include ('content_function.php');
 				<input type='submit' id='newTopic' value='Add new topic' /></form></div>";
         }
         ?>
-        <div class="content">
+        <div class="forum-content">
             <?php
             disptopics($_GET['cid'], $_GET['scid']);
             ?>

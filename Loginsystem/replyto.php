@@ -53,7 +53,7 @@ addview($_GET['cid'], $_GET['scid'], $_GET['tid']);
             ?>
         </div>
 
-        <div class="content">
+        <div class="forum-content">
             <?php
             if (isset($_SESSION['username'])) {
                 replytopost($_GET['cid'], $_GET['scid'], $_GET['tid']);

@@ -52,7 +52,7 @@ addview($_GET['cid'], $_GET['scid'], $_GET['tid']);
             replylink($_GET['cid'], $_GET['scid'], $_GET['tid']);
             ?>
         </div>
-        <div class="content">
+        <div class="forum-content">
             <?php
             disptopic($_GET['cid'], $_GET['scid'], $_GET['tid']);
             echo "<div class='replies'><p>All Replies(";

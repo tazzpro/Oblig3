@@ -48,7 +48,7 @@ include ('content_function.php');
             <br>2nd most recent post edited
             <br>3rd etc..
         </aside>
-        <div class="content">
+        <div class="forum-content">
             <?php
             dispcategories();
             ?>

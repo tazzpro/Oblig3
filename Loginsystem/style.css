@@ -40,6 +40,7 @@ body{
 
 a {
     color: black;
+	text-shadow: none;
 }
 
 table, table tbody, table tr, table td {
@@ -85,6 +86,17 @@ footer{
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     width: 20%;
     padding: 0 15px 20px 15px;
+}
+.forum-content{
+    text-align: center;
+    width: 50%;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 20px 24px 20px 37px;
+    color: white;
+    text-shadow: none;
+    background: rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.1px;
 }
 .content{
     text-align: center;
